@@ -20,6 +20,7 @@ path==16.6.0
 pathlib==1.0.1
 pickleshare==0.7.5
 platformdirs==3.0.0
+plotly==5.13.1
 prompt-toolkit==3.0.37
 psutil==5.9.4
 pure-eval==0.2.2
@@ -30,6 +31,7 @@ pywin32==305
 pyzmq==25.0.0
 six==1.16.0
 stack-data==0.6.2
+tenacity==8.2.2
 tornado==6.2
 traitlets==5.9.0
 wcwidth==0.2.6
