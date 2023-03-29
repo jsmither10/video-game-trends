@@ -4,11 +4,12 @@ This project is an analysis of video game data over time. The final analysis fil
 
 The raw data file is from Kaggle ([link to Kaggle data](https://www.kaggle.com/datasets/thedevastator/global-video-game-sales-ratings?resource=download)). This data originally came from  Timo Poutanen at the University of Helsinki ([link to original data source](https://zenodo.org/record/2454579#.Y9Y2c9JBwUE)). It should be noted that the data set used here was initially created, tagged, and validated by the original author and some fields may have a slight bias. 
 
+
 The final data used was also edited from the raw file in the following ways:
 
 1. Removed unnecessary columns from the dataframe 
 2. Removed null values found in the *Year_of_Release, Name, Publisher, and Genre* columns. This left the final data set as 16416 rows and 9 columns
-2. Update the Year_of_Release column from a float to an int
+2. Update the *Year_of_Release* column from a float to an int
 
 
 
@@ -44,10 +45,10 @@ The following features are included in this analysis:
     - Adding new columns
 - **Feature 4: Visualize your data!**
     - Made graphs using Matplotlib. Graphs include:
-            - Bar Plots
-            - Mulit-line Graphs
-            - Grouped Bar Plot
-            - Table
+        - Bar Plots
+        - Mulit-line Graphs
+        - Grouped Bar Plot
+        - Table
 - **Feature 5: Interpret your data and graphical output**
     - Analysis included in *Final Notes and Thoughts*
 
